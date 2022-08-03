@@ -6,9 +6,7 @@ Once complete, please send a link to your repository to @unhcr.org and CC: @unhc
 # First Task
 
 Create a data architecture plan.  <br />
-There is an internal database and we would like to extract the data to a specific database on another server. The final goal is to have this database supporting a dynamic dashboard, feeding into the models. 
-Describe step by step how you would build a secure pipeline. 
-How you would make sure the data is clean and as expected, how you would run tests and maintain the architecture. 
+There is an internal database and we would like to extract the data to a specific database on another server. The final goal is to have this database supporting a dynamic dashboard, feeding into the models maintained by the data scientists. In the database, we need also connections from external APIs, or data that needs scrapping from web applications, governmental websites etc.  Describe step by step how you would build a secure pipeline, feel free to use visual elements. How you would make sure the connections are securte, data is clean and as expected, how you would run tests and maintain the architecture. 
 What are best practices which should be taken into account?
 
 # Second Task
