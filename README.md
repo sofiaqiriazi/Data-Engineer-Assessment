@@ -34,6 +34,6 @@ Create a Python or R program that will run the above script and extract and load
 Transform the data by excluding "erroneous" cases. Run checks to see if the data is complete and clean. 
 
 ### Fourth step: 
-Write a sql script which will state how many cases there are per country of origin (COOName) and Process Status. 
+Write a sql script which will state how many cases there are per country of origin (COOName) and process status. 
 
 
