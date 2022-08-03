@@ -23,13 +23,17 @@ The data is expected to be transformed by excluding "inactive" cases and adding 
 | ProcessStatus       | process status of case | string | "Active" |
 
 
-### First step: Create a database to store the data using a Dimensional Modelled Design. <br />
-            The expected output is a SQL script. 
+### First step: 
+Create a database to store the data using a Dimensional Modelled Design. <br />
+The expected output is a SQL script. 
             
-### Second step: Create a Python or R program that will run the above script and extract and load the data from the database into a csv file. 
+### Second step: 
+Create a Python or R program that will run the above script and extract and load the data from the database into a csv file. 
 
-### Third step: Transform the data by excluding "erroneous" cases. Run checks to see if the data is complete and clean. 
+### Third step: 
+Transform the data by excluding "erroneous" cases. Run checks to see if the data is complete and clean. 
 
-### Fourth step: Write a sql script which will state how many cases there are per country of origin (COOName) and Process Status. 
+### Fourth step: 
+Write a sql script which will state how many cases there are per country of origin (COOName) and Process Status. 
 
 
