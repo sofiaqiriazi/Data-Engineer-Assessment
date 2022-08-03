@@ -11,9 +11,9 @@ What are best practices which should be taken into account?
 
 # Second Task
 
-The randomly created refugee dataset consists of the number of refugees per country of origin and country of asylum along with its process status. 
+The randomly created refugee dataset consists of the refugee cases for the specified country of origin and country of asylum along with its process status. 
 Use this as your data source and create an ETL pipeline which extracts data from a created database into a csv file.  <br />
-The data is expected to be transformed by excluding "inactive" cases and adding an extraction date to the file. 
+The data is expected to be transformed by excluding "erroneous" cases and adding an extraction date to the file. 
 
 | variable | description | type | example |
 | --- | --- |--- |--- |
