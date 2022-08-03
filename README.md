@@ -1,7 +1,7 @@
 # Data-Engineer-Assessment
 Welcome to the Data Engineer assessment. You have a total of three hours to complete the tasks as best as you can. 
-Create a fork in your own Github account.
-Once complete, please send a link to your repository to @unhcr.org and CC: @unhcr.org
+Create a fork in your own Github account. <br />
+Once complete, please send a link to your repository to @unhcr.org and CC: @unhcr.org <br />
 
 
 Main task:
@@ -18,12 +18,12 @@ The randomly created refugee dataset consists of the number of refugees per coun
 Create an ETL pipeline which extracts data from a created database into a csv file. 
 The data is expected to be transformed by excluding "inactive" cases and adding an extraction date to the file. 
 
-First task: Create a database to store the data using a Dimensional Modelled Design. (MSSQL / MySQL / Postgres).
+First task: Create a database to store the data using a Dimensional Modelled Design. <br />
             The expected output is a SQL script. 
             
 Second task: Create a Python or R program that will run the above script and extract and load the data from the database into a csv file. 
 
-Third task: Transform the data by excluding "erroneous" cases. 
+Third task: Transform the data by excluding "erroneous" cases. Run checks to see if the data is complete and clean. 
 
 Fourth task: Write a sql script which will state how many cases there are per country of origin (COOName) and Process Status. 
 
