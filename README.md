@@ -8,11 +8,12 @@ Main task:
 
 The randomly created refugee dataset consists of the number of refugees per country of origin and country of asylum along with its process status. 
 
-variable | description | type | example
-id       | unique identifier | string | "Cda88"
-COOName       | country of origin | string | "Ethiopia"
-CountryName       | country of asylum | string | "Sudan"
-ProcessStatus       | process status of case | string | "Active"
+| variable | description | type | example |
+| --- | --- |--- |--- |
+| id       | unique identifier | string | "Cda88" |
+| COOName       | country of origin | string | "Ethiopia" |
+| CountryName       | country of asylum | string | "Sudan" |
+| ProcessStatus       | process status of case | string | "Active" |
 
 Create an ETL pipeline which extracts data from a created database into a csv file. 
 The data is expected to be transformed by excluding "inactive" cases and adding an extraction date to the file. 
